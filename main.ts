@@ -1,6 +1,7 @@
 function ShowTextList (list: any[]) {
     for (let value of list) {
         basic.clearScreen()
+        basic.showString("" + (value))
         basic.pause(500)
     }
 }
@@ -25,7 +26,4 @@ textlist1 = [
 "c",
 "d"
 ]
-char = "x"
-basic.forever(function () {
-	
-})
+char = "X"
